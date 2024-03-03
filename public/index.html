@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parse Server Migration Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Parse Server Migration Tool</h1>
+        <div id="schemaFields" class="schema-container"></div>
+        <div class="button-container">
+            <button id="fetchSchemaButton" class="fetch-button">Fetch Schema</button>
+            <button id="dumpButton" class="fetch-button" style="display: none;">Dump Selected Classes</button>
+        </div>
+        <div id="notification" class="notification"></div>
+    </div>
+    <script src="https://unpkg.com/parse/dist/parse.min.js"></script>
+    <script src="script.js"></script>
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</body>
+</html>
